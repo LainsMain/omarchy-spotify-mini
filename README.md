@@ -7,6 +7,17 @@ popup with album artwork, track details, and playback controls.
 Uses the desktop app's local MPRIS interface. No separate Spotify login, Web API,
 API keys, Spotifyd, or library loading. Spicetify is optional and is not required.
 
+## Preview
+
+![Spotify Mini landscape popup with demo album artwork and playback controls](docs/images/player.png)
+
+The small monochrome indicator fits the native bar:
+
+![Spotify indicator in the Omarchy bar](docs/images/bar.png)
+
+Screenshots use fictional track metadata and original demo artwork, not a real
+listening session. Colors and typography follow the active Omarchy theme.
+
 ## Features
 
 - Matches Omarchy's native panels, font scale, colors, icons, and spacing.

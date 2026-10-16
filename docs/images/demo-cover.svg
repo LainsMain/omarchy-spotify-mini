@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<rect width="256" height="256" fill="#142d2b"/>
+<circle cx="180" cy="72" r="32" fill="#a6ce74"/>
+<path d="M0 144 65 88 134 153 199 111 256 156V256H0Z" fill="#31574c"/>
+<path d="M0 183 70 133 140 181 224 138 256 170V256H0Z" fill="#203d38"/>
+<path d="M133 161c-39 25-7 38-38 58-10 7-27 19-29 37h105c-17-22-34-25-31-39 6-25-27-27-7-56Z" fill="#66c6b5"/>
+<path d="M20 26H76" stroke="#e3e8d5" stroke-width="2"/>
+<text x="20" y="51" fill="#e3e8d5" font-family="monospace" font-size="14" letter-spacing="3">RIVERLIGHT</text>
+<text x="20" y="235" fill="#e3e8d5" font-family="monospace" font-size="9" letter-spacing="2">DEMO ARTWORK</text>
+</svg>

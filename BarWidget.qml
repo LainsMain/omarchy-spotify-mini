@@ -13,7 +13,7 @@ BarWidget {
     readonly property var players: Mpris.players.values
     readonly property var player: Model.selectPlayer(players)
     readonly property bool playing: player !== null && player.isPlaying
-    readonly property bool shown: playing || (popupOpen && player !== null)
+    readonly property bool shown: player !== null
     readonly property string title: player ? String(player.trackTitle || "Spotify") : "Spotify"
     readonly property string artist: player ? String(player.trackArtist || "") : ""
     readonly property string album: player ? String(player.trackAlbum || "") : ""

@@ -1,7 +1,7 @@
 # Spotify Mini for Omarchy
 
 A small, theme-aware Spotify player for the Omarchy bar. A monochrome Spotify
-icon appears while the desktop app plays music. Click it for a compact landscape
+icon stays visible while the desktop app is running, including when paused. Click it for a compact landscape
 popup with album artwork, track details, and playback controls.
 
 Uses the desktop app's local MPRIS interface. No separate Spotify login, Web API,
@@ -23,8 +23,8 @@ listening session. Colors and typography follow the active Omarchy theme.
 - Matches Omarchy's native panels, font scale, colors, icons, and spacing.
 - Small album cover alongside track, artist, and album details.
 - Previous, play/pause, next, seek slider, elapsed/total time, and Open Spotify.
-- Icon hides when Spotify stops playing. An open popup stays visible when paused,
-  so you can resume before closing it.
+- Icon stays visible while Spotify is running, including paused or stopped playback,
+  so you can reopen the popup and resume later. It hides only when Spotify exits.
 - Middle-click the bar icon to toggle playback.
 - Popup shortcuts: **Space** play/pause, **Left/Right** seek five seconds,
   **Tab** focus controls, **Escape** dismiss.
@@ -55,8 +55,8 @@ If you want the icon on the right:
 omarchy plugin enable lainsmain.spotify-mini right
 ```
 
-Start a track in Spotify. The icon is intentionally absent while nothing is
-playing. Install through Omarchy's plugin command; no root permissions or install
+Open Spotify. The icon stays available even when music is paused.
+Install through Omarchy's plugin command; no root permissions or install
 scripts are needed.
 
 ## Remove
@@ -70,7 +70,7 @@ clean up. Spotify and its settings are unaffected.
 
 ## Troubleshooting
 
-If the icon does not appear, check that the desktop Spotify app is playing and
+If the icon does not appear, check that the desktop Spotify app is running and
 that its MPRIS service exists:
 
 ```sh

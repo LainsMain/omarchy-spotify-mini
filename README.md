@@ -9,7 +9,7 @@ API keys, Spotifyd, or library loading. Spicetify is optional and is not require
 
 ## Preview
 
-![Spotify Mini landscape popup with demo album artwork and playback controls](docs/images/player.png)
+![Spotify Mini landscape popup with demo album artwork and playback controls](preview.png)
 
 The small monochrome indicator fits the native bar:
 

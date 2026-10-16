@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "lainsmain.spotify-mini",
+  "name": "Spotify Mini",
+  "version": "1.0.0",
+  "author": "LainsMain",
+  "description": "A small Spotify indicator with a themed album-art player. Uses local MPRIS; no account setup.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Spotify Mini",
+    "description": "Spotify icon while playing; album art and controls on click",
+    "category": "Media",
+    "allowMultiple": false
+  },
+  "license": "MIT"
+}
